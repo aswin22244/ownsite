@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    width: 100%;
+    height: 157px;
+    background-color:rgb(144, 212, 140);
+    color: #fff;
+    align-content: center;
+    display: flex;
+}
+.logo{
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 26px;
+    margin-left: 15px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: 70px;
+    color: rgb(232, 244, 223);
+    margin-left: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(232, 244, 223);
+}
+nav li{
+    padding-right:10px ;
+    font-size: 18px;
+    font-family:fantasy;
+    letter-spacing: 2px;
+}
+nav li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.banner{
+    margin-left: 195px;
+    margin-top: -15px;
+}
+.banner2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.banner-image{
+    width: 100%;
+    height: 350px;
+    margin-top: 1px;
+}
+.banner-dog{
+    margin-top: -310px;
+    margin-bottom: 20px;
+}
+.bn-content{
+  margin-top: -260px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: rgb(162, 98, 19);
+}
+.bn-content2{
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 140, 0);
+}
+.btn-banner{
+    padding: 10px;
+    margin-top: 10px;
+    border-style: none;
+    background-color:rgb(250, 242, 225);
+    color: rgb(173, 108, 40);
+    font-weight: bold;
+}
+.btn-banner:hover{
+    background-color: red;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.purchase{
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: auto;
+    display: grid;
+   grid-template-columns: repeat(3,10px);
+   column-gap: 400px;
+   row-gap: 50px;
+   padding-left: 100px;
+   border-bottom: 1px,solid,black;
+   
+}
+
+
+.dog-food{
+    width: 272px;
+    height: 320px;
+    border-radius: 15px;
+}
+.dog-toys{
+    width: 272px;
+    height: 320px;
+    border-radius: 15px;
+}
+.dog-treats{
+    width: 272px;
+    height: 320px;
+    border-radius: 15px;
+}
+.dfood{
+    position: relative;
+}
+.toys{
+   position: relative;
+}
+.treats{
+    position: relative;
+}
+.purchase-head{
+    position: absolute;
+    top: 85%;
+    color: rgb(71, 54, 54);
+    margin-left: 10px;
+} 
+.purchase-cont{
+    position: absolute;
+    top: 95%;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(87, 66, 66);
+    font-family: Axiforma, system-ui, sans-serif;
+}
+.dog-training{
+    width: 575px;
+    height: 320px;
+}
+.purchase-head2{
+    position: absolute;
+    color: rgb(71, 54, 54);
+    margin-left: 10px;
+    margin-top: -290px;
+} 
+.purchase-head:hover{
+    text-decoration: underline;
+    
+}
+.purchase-cont3{
+    position: absolute;
+    margin-top: -200px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(87, 66, 66);
+    font-family: Axiforma, system-ui, sans-serif;
+}
+.mid-content{
+    margin-top: 40px;
+    display: flex;
+}
+.mid-content h5{
+    color: rgb(169, 137, 11);
+    margin-left: 90px;
+    margin-top: 330px;
+    font-size: 18px;
+   line-height: 30px;
+   
+}
+.iframe{
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 530px;
+    border-radius: 10px;
+}
+.recent{
+    margin-top: 100px;
+}
+.recent h4{
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.recent ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,10px);
+    column-gap: 230px;
+    margin-left: 100px;
+}
+.items{
+    border: 1px solid black;
+    border-style: solid;
+    width: 199px;
+    height: 270px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.price{
+    color: red;
+}
+.video{
+    width: 100%;
+    height: auto;
+}
+.video11{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 60%;
+    height: 500px;
+}
+.video img{
+    margin-top: 50px;
+    margin-left: 86px;
+    margin-bottom: 60px;
+}
+.footer{
+    width: 89%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5,10px);
+    column-gap: 200px;
+    background-color:rgb(144, 212, 140);
+    padding-left: 150px;
+    padding-top: 50px;
+    color: #fff;
+  
+}
+.footer h4{
+    font-size: 18px;
+}
+.review h4{
+    margin-bottom: 20px;
+    font-size: large;
+   
+}
+.review{
+    width: 100px;
+    height: auto;
+}
+
+
+    .page1 {
+        padding: 16px;
+        background-color: rgb(147, 255, 232);
+        margin-left: 488px;
+        width: 470px;
+        border-radius:30px ;
+      }
+    
+    .first{
+        width: 100%px;
+        height: 100px;
+       
+       
+    }
+    .label{
+        padding-bottom: 10px;
+    }
+    .Register{
+      background-color: #f14a17;
+      color: rgb(0, 0, 0);
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    .input{
+        padding: 10px;
+        width: 96%;
+        margin: 8px ;
+    }
+    .second{
+         width: 50%;
+         height: 100px;
+         margin-left: 380px;
+         background-color: rgb(44, 2, 141);
+         margin-bottom: 30px;
+         border-radius:70px ;
+         color: rgb(228, 195, 216);
+         text-align: center;
+         padding-top: 20px;
+    }
+    .input1{
+        width: 90px;
+        height: 35px;
+        
+    }
+    .page1signin{
+        text-align: center;
+       
+    }
