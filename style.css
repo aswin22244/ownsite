@@ -164,12 +164,14 @@ nav li:hover{
 }
 .mid-content{
     margin-top: 40px;
+    
+    
     display: flex;
 }
 .mid-content h5{
     color: rgb(169, 137, 11);
-    margin-left: 90px;
-    margin-top: 330px;
+    margin-left: 112px;
+    margin-top: 148px;
     font-size: 18px;
    line-height: 30px;
    
@@ -186,14 +188,14 @@ nav li:hover{
 .recent h4{
     margin-bottom: 50px;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 170px;
 }
 .recent ul{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(5,10px);
     column-gap: 230px;
-    margin-left: 100px;
+    margin-left: 170px;
 }
 .items{
     border: 1px solid black;
