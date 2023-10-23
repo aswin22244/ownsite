@@ -94,7 +94,7 @@ nav li:hover{
    grid-template-columns: repeat(3,10px);
    column-gap: 400px;
    row-gap: 50px;
-   padding-left: 100px;
+   padding-left: 190px;
    border-bottom: 1px,solid,black;
    
 }
@@ -170,8 +170,8 @@ nav li:hover{
 }
 .mid-content h5{
     color: rgb(169, 137, 11);
-    margin-left: 112px;
-    margin-top: 148px;
+    margin-left: 126px;
+    margin-top: 160px;
     font-size: 18px;
    line-height: 30px;
    
